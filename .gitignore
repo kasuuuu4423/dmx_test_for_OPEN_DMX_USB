@@ -1,0 +1,73 @@
+## .NET Core/.NET プロジェクト用 .gitignore
+
+# ビルド結果
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio 関連ファイル
+.vs/
+.vscode/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.dbmdl
+*.dbproj.schemaview
+*.jfm
+*.pfx
+*.publishsettings
+orleans.codegen.cs
+
+# ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# テスト結果
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# NuGet
+*.nupkg
+# NuGetパッケージフォルダは無視（パッケージの復元を有効にする）
+**/[Pp]ackages/*
+# ただし、build/フォルダ内のツールは除外
+!**/[Pp]ackages/build/
+# 必要に応じてプロジェクト固有のpackages.configを含める
+!**/[Pp]ackages/repositories.config
+# NuGet v3のproject.json files
+*.nuget.props
+*.nuget.targets
+
+# Microsoft Azure
+csx/
+*.build.csdef
+ecf/
+rcf/
+
+# Windows Store app package directories and files
+AppPackages/
+BundleArtifacts/
+Package.StoreAssociation.xml
+_pkginfo.txt
+*.appx
+*.appxbundle
+*.appxupload
+
+# Visual Studio cache files
+*.[Cc]ache
+!?*.[Cc]ache/
+
+# その他
+*.tmp
+*.swp
+*.bak
+*.cache
+*.DS_Store
+Thumbs.db
